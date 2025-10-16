@@ -1,0 +1,16 @@
+export const GAME_WIDTH = 480;
+export const GAME_HEIGHT = 720;
+export const PIPE_WIDTH = 96;
+export const PIPE_GAP = 180;
+export const PIPE_DISTANCE = 260;
+export const BASE_SCROLL_SPEED = 0.2; // pixels per ms
+export const SCROLL_ACCELERATION = 0.000015; // speed increase per ms
+export const GRAVITY = 0.0015; // px per ms^2
+export const FLAP_IMPULSE = -0.5; // px per ms
+export const MAX_DROP_SPEED = 0.65;
+export const BIRD_RADIUS = 22;
+export const GROUND_HEIGHT = 120;
+export const INTRO_STATE = 'intro';
+export const PLAYING_STATE = 'playing';
+export const PAUSED_STATE = 'paused';
+export const GAME_OVER_STATE = 'gameOver';
